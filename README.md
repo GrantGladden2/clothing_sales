@@ -48,7 +48,7 @@ AAL has grown from a single clothing brand into a nationwide retailer with store
 - pandas — data manipulation and analysis
 - NumPy — numerical operations
 - scikit-learn — data normalization (`MinMaxScaler` / `Normalizer`)
-- Matplotlib / Seaborn — data visualization
+- Matplotlib — data visualization
 
 ## Project Structure
 
