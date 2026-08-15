@@ -24,7 +24,7 @@ AAL has grown from a single clothing brand into a nationwide retailer with store
 
 ## Dataset
 
-- **Source file:** `Sales.csv`
+- **Source file:** `clothing_sales.csv`
 - **Granularity:** Daily transaction-level data
 - **Time period:** October – December (one sales season)
 - **Key fields:** Date, State, Unit (units sold), Sales (revenue)
@@ -48,13 +48,13 @@ AAL has grown from a single clothing brand into a nationwide retailer with store
 - pandas — data manipulation and analysis
 - NumPy — numerical operations
 - scikit-learn — data normalization (`MinMaxScaler` / `Normalizer`)
-- Matplotlib / Seaborn — data visualization
+- Matplotlib — data visualization
 
 ## Project Structure
 
 ```
-├── Sales.csv                 # Raw dataset
-├── sales_analysis.ipynb      # Main analysis notebook
+├── clothing_sales.csv                 # Raw dataset
+├── explore_data.ipynb      # Main analysis notebook
 └── README.md                 # Project documentation
 ```
 
@@ -63,9 +63,9 @@ AAL has grown from a single clothing brand into a nationwide retailer with store
 1. Clone or download this repository
 2. Install dependencies:
    ```
-   pip install pandas numpy scikit-learn matplotlib seaborn
+   pip install pandas numpy scikit-learn matplotlib
    ```
-3. Open `sales_analysis.ipynb` in Jupyter Notebook or JupyterLab
+3. Open `explore_data.ipynb` in Jupyter Notebook or JupyterLab
 4. Run the cells in order to reproduce the analysis and visualizations
 
 ## Key Questions This Analysis Answers
